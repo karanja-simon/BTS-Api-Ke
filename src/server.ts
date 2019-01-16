@@ -1,9 +1,9 @@
-import * as express from 'express';
-import * as mongoose from 'mongoose';
-import * as bodyParser from 'body-parser';
-import * as logger from 'morgan';
-import * as helmet from 'helmet';
-import * as swaggerUI from 'swagger-ui-express';
+import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
+import logger from 'morgan';
+import helmet from 'helmet';
+import swaggerUI from 'swagger-ui-express';
 
 import AuthRoutes from './router/AuthRoutes';
 import NoAuthRoutes from './router/NoAuthRoutes';
